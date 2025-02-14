@@ -7,10 +7,10 @@ import { useNavigate } from 'react-router-dom';
 export default function Main() {
   let [card, setCard] = useState([])
   const cards = [
-    { id: 4, title: "React.js", category: "react", disc: "A movies website that contain  a full validation system for regesteration and login also connected to an api to keep the user up to date with the lastest movies", image: "/static/images/moviesweb.PNG", link: "https://movies-api-project.vercel.app/" },
-    { id: 3, title: "js", category: "js", disc: "A crud system web app that can be used to create , read, update, and delete products for any store", image: "/static/images/crudsystem.PNG", link: "https://crud-system-ivory.vercel.app/" },
-    { id: 1, title: "Css & HTML portfolio 2", category: "Html & Css", disc: "A responsive portfolio made using Html and Css with bootstrap", image: "/static/images/secondportfolio.PNG", link: "https://portfolio-demo-2-zeta.vercel.app/" },
-    { id: 2, title: "Css & HTML portfolio", category: "Html & Css", disc: "A portfolio which is made using simple Html and Css", image: "/static/images/firstportfolio.PNG", link: "https://portfolio-demo-1.vercel.app/" },
+    { id: 4, title: "React.js", category: "react", disc: "A movies website that contain  a full validation system for regesteration and login also connected to an api to keep the user up to date with the lastest movies", image: "/moviesweb.PNG", link: "https://movies-api-project.vercel.app/" },
+    { id: 3, title: "js", category: "js", disc: "A crud system web app that can be used to create , read, update, and delete products for any store", image: "/crudsystem.PNG", link: "https://crud-system-ivory.vercel.app/" },
+    { id: 1, title: "Css & HTML portfolio 2", category: "Html & Css", disc: "A responsive portfolio made using Html and Css with bootstrap", image: "/secondportfolio.PNG", link: "https://portfolio-demo-2-zeta.vercel.app/" },
+    { id: 2, title: "Css & HTML portfolio", category: "Html & Css", disc: "A portfolio which is made using simple Html and Css", image: "/firstportfolio.PNG", link: "https://portfolio-demo-1.vercel.app/" },
 
   ];
   let [CurrentActive, setCurrentActive] = useState('')
