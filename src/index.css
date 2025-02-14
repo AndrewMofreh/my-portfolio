@@ -49,7 +49,7 @@ html{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     /* background-color: var(--primary) !important; */
-    background-image: linear-gradient(rgba(76, 77, 77, 0.5), rgba(76, 77, 77, 0.5)), url(/public/moviesweb.png);
+    background-image: linear-gradient(rgba(76, 77, 77, 0.5), rgba(76, 77, 77, 0.5)), url(/public/programer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
