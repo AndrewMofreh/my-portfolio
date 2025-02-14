@@ -41,7 +41,7 @@ export default function Header() {
                 <Link className="nav-link" to="skills">Skills</Link>
               </li>
               <li className="">
-                <Link className="nav-link" to="projects" >projects</Link>
+                <Link className="nav-link" to="projects" >Projects</Link>
               </li>
               <li className="">
                 <Link className="nav-link" to="contact">Contact</Link>
