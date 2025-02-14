@@ -1,0 +1,35 @@
+
+
+
+.hr{
+  border: 0.5px solid var(--border);
+  margin: 10px;
+}
+
+
+.webContent{
+  background-color: var(--secondry);
+  color: #fff;
+  border:2px solid var(--border);
+
+}
+
+.up-arrow{
+  position: fixed;
+  bottom: 10%;
+  right: 3%;
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  text-align: center;
+  background-color: var(--border);
+  border: 1px solid rgba(255, 255, 255, 0.377);
+  cursor: pointer;
+}
+
+
+.up-arrow:hover {
+background-color:rgba(128, 128, 128, 0.637) ;
+transition: 0.5s;
+
+}

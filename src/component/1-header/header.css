@@ -1,0 +1,125 @@
+
+
+
+.aaa{
+    border-radius: 20px;
+    background-color: var(--nav);
+    border: 1px solid var(--boarder);
+    font-size: 0.9rem;
+
+}
+
+
+
+.navItems{
+display: flex;
+gap: 5px;
+box-shadow: 0px 3px 12px -1px black;
+border-radius: 20px;
+}
+
+.aaa li a{
+    color: var(--subtitle) !important;
+    font-weight: 500;
+    margin: 0px 5px;
+    padding: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+.aaa .navItems li a:hover{
+color:#16AC9C !important;
+
+}
+
+
+.light-Button{
+    border: 0px !important;
+    border-radius: 50%;
+    background-color: var(--nav);
+    width: 2.4rem;
+    height: 2.4rem;
+    transition: 2s;
+
+    
+}
+
+.light-Button:hover{
+    border-radius: 5px;
+}
+
+button{
+    padding-top: 8px !important;
+    border: 0px !important;
+}
+
+i{
+    color: #16AC9C;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    
+}
+
+
+
+
+header nav .aaa i{
+    font-size: 50px;   
+}
+
+header nav .btn-menu {
+    display: none !important;
+    margin-right: 3px;
+    
+}
+
+.lottie{
+    position:absolute;
+    transform: translate(110px, 150px);
+}
+
+/* Media query for pop-up window */
+
+
+.popup{
+    display: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 700px) {
+    
+    header nav .btn-menu {
+        display: block !important
+    }
+
+    header nav .aaa{
+        display: none !important;
+    }
+
+
+    header .popup-bg{
+        position: fixed;
+        z-index: 5px;
+        inset: 0;
+        border: 1px solid var(--boarder);
+        background-color:rgba(53, 48, 48, 0.685) ;
+        
+    }
+    
+    .popup{
+        position:relative;
+        z-index: 1000;
+        background-color: var(--nav);
+        display: block;
+            border-radius: 10px;
+            margin-top: 5px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+
+
+    }
+    

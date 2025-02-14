@@ -1,0 +1,66 @@
+
+
+
+
+
+.main a{
+    color: #16AC9C !important;
+    text-shadow: 1px -2px 1px black;
+}
+
+
+
+a :hover{
+    color: hsl(180, 92%, 46%);
+    transition: 1s !important;
+}
+
+.project{
+
+    border: 1px solid var(--border) ;
+    border-radius: 3px;
+    transition: all;
+    transition-duration: 1s;
+}
+
+.project:hover{
+border: 1px solid #16AC9C;
+rotate: 3deg;
+scale: 1.03;
+
+}
+
+
+.project h2{
+    color: var(--title) !important;
+}
+
+
+.project {
+    color: var(--subtitle);
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.2), -1px 1px 1px rgba(0, 0, 0, 0.15);
+    background-image: linear-gradient(rgba(225, 225, 225, 0.414), rgba(225, 225, 225, 0.05)) ;
+    border-radius: 5px;
+    height: 370px;
+}
+
+
+.main button{
+border-color: var(--border) !important;
+background-color: var(--nav) !important;
+color: var(--subtitle);
+transition: 0.5s;
+
+
+}
+
+
+
+.main button:hover{
+    color: #16AC9C;
+}
+
+
+.linkblock{
+    display: block;
+}

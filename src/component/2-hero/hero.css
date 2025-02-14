@@ -1,0 +1,151 @@
+
+
+
+.hero{
+    margin-bottom: 20px;
+}
+
+
+h1{
+
+    font-weight: 700 !important;
+    font-size: 48px !important;
+    line-height: 56px;
+    color: var(--title) !important;
+}
+
+
+.profile .lottie{
+    transform: translate(90px, 80px);
+
+}
+
+.profile .profile-Pic{
+width: 100px;
+border: 2px double goldenrod;
+border-radius: 50%;
+}
+
+
+.hero .anim{
+    width: 100%;
+    translate: -150px -55px;
+
+}
+
+
+@media  (max-width: 1250px) {
+
+    .hero .anim {
+        display: none;
+    }
+    
+}
+
+.about p {
+    word-break: break-all;
+}
+
+.disc{
+    color: var(--subtitle);
+
+}
+
+
+.hiremebtn, .downloadbtn{
+    border: 1px solid rgba(0, 0, 0, 0.737) !important;
+    padding: 5px;
+    font-weight: 500;
+    margin: 5px !important;
+    background-color: #16ac9d1f;
+    color: var(--title) ;
+    border-radius: 7px !important;
+    transition: 2s;
+
+}
+.fa-download{
+    color: var(--title) !important;
+    margin-left: 4px;
+    font-size: 14px;
+    transition: 2s;
+}
+
+button:hover{
+    color: #22ebd7
+}
+
+
+button:hover .fa-download{
+    color: #22ebd7 !important;
+}
+
+
+a{
+    transition: 2s;
+}
+
+.social-icons {
+    position: fixed;
+    top: 50%;
+    right: 20px; /* Move icons to the right */
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 1000; /* Ensure it's above other elements */
+    
+}
+
+/* Style for Icons */
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: var(--nav);
+    border: var(--border);
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 24px;
+    animation: floatAnimation 3s ease-in-out infinite;
+    
+}
+
+
+.social-icons .shadowbox{
+
+    border-radius: 50%;
+    animation: floatAnimation 3s ease-in-out infinite;
+}
+
+@keyframes floatAnimation {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-3px);
+        box-shadow: -2px -7px 15px 0px white; }
+    100% { transform: translateY(0); }
+}
+
+.social-icons i{
+    color: var(--title);
+}
+
+.social-icons a:hover {
+    background: #0077b5; 
+}
+
+.social-icons .github:hover {
+    background: #000; 
+}
+
+.social-icons .linkedin:hover {
+    background: #0077b5; 
+}
+
+
+
+
+
+

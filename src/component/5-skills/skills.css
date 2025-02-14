@@ -1,0 +1,30 @@
+.skills .outer{
+    width: 100%;
+    height: 15px;
+    background-color: var(--bar);
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: content-box !important;
+    
+}
+
+
+.skills .fill {
+    background-color: var(--fill);
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    animation: fill 7s ease;
+}
+
+.skills p{
+    color: var(--title) ;
+    font-weight: 500;
+}
+
+@keyframes fill {
+
+    0% {width: 0%;}
+    100% {width: 100%}
+
+}

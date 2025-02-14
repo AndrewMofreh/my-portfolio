@@ -1,0 +1,43 @@
+.cont-color{
+    color: #92929e;
+}
+
+input, textarea{
+    background-color: var(--secondry);
+    border: 1px solid var(--border);
+    color: aliceblue;
+}
+textarea{
+    height: 105px;
+}
+
+.content i{
+    font-size: 30px;
+}
+
+.content h2{
+    color: var(--title);
+}
+
+.content p, label, input, textarea {
+    color: var(--subtitle) !important;
+}
+
+.content button{
+    border-color: var(--border) !important;
+    background-color: var(--nav) !important;
+    color: var(--title);
+}
+
+.content button:hover{
+    color: #16AC9C;;
+}
+
+
+@media  (max-width: 1100px) {
+
+    section .contactAnim {
+        display: none;
+    }
+    
+}

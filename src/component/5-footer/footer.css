@@ -1,0 +1,39 @@
+footer li {
+    padding-right: 10px;
+}
+
+
+
+li a{
+    color: var(--subtitle) !important;
+    font-weight: 500;
+    margin: 0px 5px;
+    padding: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+ 
+}
+
+li a:hover{
+    color:#7d3188 !important;
+    
+    }
+
+
+    .footer-content p{
+        color: var(--subtitle);
+
+    }
+
+    @media(max-width: 995px)
+    {
+
+        .footer-content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+
+
+    }
