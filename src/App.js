@@ -30,8 +30,8 @@ function App() {
 
   return (
 <Router>
-
         <div className='webContent container' id='upper'>
+
                 <Header/>
                 <Hero/>
         <div className='hr'></div>

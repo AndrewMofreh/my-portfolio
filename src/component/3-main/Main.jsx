@@ -83,7 +83,7 @@ export default function Main() {
 
                       <div className="project p-3">
                         <a href={_.link}>
-                          <img src={_.image} alt="" className='w-100' />
+                          <img src={_.image} alt="AAAAAAAAAAA" className='w-100' />
                         </a>
                         <h2>{_.title}</h2>
                         <p>{_.disc}</p>
