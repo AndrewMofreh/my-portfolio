@@ -17,7 +17,7 @@ export default function Hero() {
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ damping: 3, type: "spring", duration: 1 }}
-            className="profile-Pic" src="/My-portfolio/me-round.png" alt="Profile" />
+            className="profile-Pic" src="me-round.png" alt="Profile" />
         </div>
 
         <div className="about col-md-8 ">
